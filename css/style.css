@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+header{
+  background-image: url(../img/titlebg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.room{
+  background-color: rgba(0,0,0,0.7);
+  margin-bottom: 10px;
+  padding-top: 30px;
+  height: 340px;
+}
+.room:hover{
+  background-color: rgba(55, 24, 21,0.9);
+}
+#homeHeading{
+  padding-top: 220px;
+}
+#homeHeading:hover{
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.bg-primary{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#services{
+  background-color: black;
+}
+.info{
+  margin-top: 100px;
+}
+.info p{
+  font-size: 17px;
+  color: lightgray;
+  padding-left: 80px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.page-scroll img{
+  padding-top: 100px;
+  width: 60px;
+}
+.page-scroll img:hover{
+  opacity: 0.8;
+}
+#poem{
+  text-align: center;
+}
+.info_img img{
+  border: 2px solid gray;
+  width: 270px;
+  height: 270px;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.development{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.room p{
+  padding: 15px;
+  text-align: justify;
+}
+.hr{
+  margin-top: -50px;
+  margin-bottom: 50px;}
+.engineering{
+  left: 80px;
+}
+.design{
+  right: 80px;
+}
+.design img{
+  width: 100px;
+  padding: 10px;
+}
+.design img:hover{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.empty{
+  width: 90px;
+}
+.cir{
+  border: 3px solid gray;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: gray;
+  padding-top: 35px;
+  margin: 8px;
+}
+.cir:hover{
+  color: white;
+  border: 3px solid white;
+  font-weight: 600;
+  transition: .4s;
+}
+.blog a{
+  color: green;
+}
+.facebook a{
+  color: #3b5998;
+}
+.instagram a{
+  color: rgb(147, 31, 0);
+}
+a:hover{
+  color: white;
+}
+footer{
+  padding-top: 30px;
+  color: gray;
+  height: 80px;
+  background-color: black;
+}
